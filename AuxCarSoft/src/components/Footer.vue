@@ -52,12 +52,7 @@ const socialItems = [
                 <a :href="socialItems[0].link"
                   ><span :class="socialItems[0].icon"></span
                 ></a>
-              </li>
-              <li style="margin-right: 4px">
-                <a :href="socialItems[1].link"
-                  ><span :class="socialItems[1].icon"></span
-                ></a>
-              </li>
+              </li> 
               <li style="margin-right: 4px">
                 <a :href="socialItems[2].link"
                   ><span :class="socialItems[2].icon"></span
@@ -67,21 +62,14 @@ const socialItems = [
                 <a :href="socialItems[3].link"
                   ><span :class="socialItems[3].icon"></span
                 ></a>
-              </li>
-              <li>
-                <a :href="socialItems[4].link"
-                  ><span :class="socialItems[4].icon"></span
-                ></a>
-              </li>
+              </li> 
             </ul>
           </div>
         </div>
         <div class="col-lg-2 ml-auto">
           <div class="widget">
             <h3>{{ column2Heading }}</h3>
-            <ul class="list-unstyled float-left links">
-              <li><a href="#">Bonpini</a></li>
-              <li><a href="#">Azad Logistics</a></li>
+            <ul class="list-unstyled float-left links"> 
               <li><a href="#">Auxion Tracking</a></li>
                
             </ul>
